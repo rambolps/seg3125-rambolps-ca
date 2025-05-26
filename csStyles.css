@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+body {    
+    background-color: black;
+}
+
+.honk-font {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 7em;
+    text-align: center;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+  }
+
+
+  .container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  .content{
+    transition: transform 0.3s ease;
+  }
+  .content:hover{
+    transform: scale(1.2);
+  }
+
+  a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  

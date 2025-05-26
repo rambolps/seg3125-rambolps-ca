@@ -9,14 +9,147 @@
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar has-background-inherit" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <span>
-                <img src="assets/crap.jpg" alt="Logo" width="50px" />
-                
-            </span>
+            <div id="navLogo">
+                <img id="imgLogo" src="assets/crap.jpg" alt="Logo" width="50px" />
+                <h2 id="textLogo">Ryan Rambali - Portfolio</h2>
+            </div>
         </div>
     </nav>
+    <div class="container">
+        <section class="section">
+            <h1 class="title glow">About Me</h1>
+            <div class="card">
+                <div class="columns">
+                    <div class="column is-one-third">
+                        
+                        <img id="pLogo" src="assets/tvLogo.jpg" alt="Personal Picture" />
+                    </div>
+                    <div class="column" id="pText">
+                        <p>As a Computer Engineering student at the University of Ottawa,
+                            I'm driven by a passion for solving complex problems,
+                            especially when they involve the intricate dance between
+                            hardware and software. I thrive on the challenge of optimizing
+                            low-level programs and pushing the boundaries of performance,
+                            whether I'm working with FPGAs or diving deep into embedded
+                            development on microcontrollers like the ESP32 and Arduino.
+                            My curiosity extends to computer security projects, where
+                            I enjoy leveraging my embedded systems knowledge to uncover
+                            vulnerabilities and build robust defenses..</p>
+                        <br>
+                        <p>I'm constantly expanding my skillset, currently delving into
+                            the nuances of the STM32 microcontroller and exploring the
+                            exciting world of 3D graphics with Vulkan,
+                            crafting visuals with C++ and GLSL shaders.
+                            My philosophy centers on writing simple, efficient, and impactful code.</p>
+                        <br>
+                        <p>Beyond these areas, I also enjoy the tangible results of mobile development,
+                            having built native Android applications and now venturing into
+                            cross-platform solutions with Flutter.
+                            I've also dabbled in creating simple, fast websites,
+                            initially with Angular but now preferring to leverage
+                            custom JavaScript components with plain HTML, CSS, and JS for static sites.
+                            More recently, I've enjoyed working with HTMX, utilizing a
+                            Go backend to deliver dynamic web experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section class="section">
+    <h1 class="title glow">My Projects</h1>
+    <div class="grid">
+        <div class="cell">
+            <a href="/bike" class="project-card-link emph">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by2">
+                            <img src="assets/brs.jpg" alt="Bike Repair" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Bike Repair Shop</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            A simple website desinged for a bike reapir shop.
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="cell">
+            <a href="/blackjack" class="project-card-link emph">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="assets/blackjack.jpg"
+                                alt="Placeholder image" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Virtual Blackjack</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            A quick, fun blackjack game. How high can you score?
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="cell">
+            <a href="/ecommerce" class="project-card-link emph">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="assets/ecom.jpg"
+                                alt="Placeholder image" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">E-Commerce Site</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            An quick and easy shopping experience made with Vue.js
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="cell">
+            <a href="/analytics" class="project-card-link emph">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="assets/ba.jpg"
+                                alt="Placeholder image" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Business Analytics</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            An interactive business analytics visualizer
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+    </div>
 </body>
 
 </html>
