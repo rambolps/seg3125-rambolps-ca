@@ -19,6 +19,7 @@ html {
 }
 
 #textLogo {
+    color: aliceblue;
     font-size: xx-large;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
