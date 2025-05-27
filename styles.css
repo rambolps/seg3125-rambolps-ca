@@ -20,7 +20,6 @@ html {
 
 #textLogo {
     font-size: xx-large;
-    color: aliceblue;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -38,7 +37,6 @@ html {
     margin: 20px;
     border-radius: 20px;
     font-size: medium;
-    color: aliceblue;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -50,7 +48,6 @@ html {
 #pName{
     margin: 20px;
     font-size: xx-large;
-    color: aliceblue;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
